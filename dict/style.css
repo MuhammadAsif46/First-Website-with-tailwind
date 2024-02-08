@@ -711,6 +711,10 @@ video {
   justify-content: space-evenly;
 }
 
+.self-start {
+  align-self: flex-start;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -721,6 +725,18 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border {
